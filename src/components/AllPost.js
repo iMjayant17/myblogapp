@@ -48,7 +48,7 @@ const containerStyle = {
 
         
     useEffect(() => {
-        axios.get("http://localhost:3000/blog/all_blog", {
+        axios.get("https://restful-blog-api-gxyi.onrender.com/blog/all_blog", {
             headers: {
                 Authorization:'Bearer '+localStorage.getItem('token')
             }

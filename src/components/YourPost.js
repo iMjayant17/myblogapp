@@ -8,7 +8,7 @@ const YourPost = () => {
     // const author = localStorage.getItem('author')
     const id = localStorage.getItem('id')
     useEffect(() => {
-        axios.get("http://localhost:3000/blog//find_blog_by_author/"+id, {
+        axios.get("https://restful-blog-api-gxyi.onrender.com/blog//find_blog_by_author/"+id, {
           headers: {
               Authorization:'Bearer '+localStorage.getItem('token')
           }

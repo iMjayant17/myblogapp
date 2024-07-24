@@ -16,7 +16,7 @@ const Signup = () => {
 	const submitHandler = (e) => {
 		e.preventDefault();
 		axios
-      .post("http://localhost:3000/signup", {
+      .post("https://restful-blog-api-gxyi.onrender.com/signup", {
         email: email,
         fullName: fullName,
         author: author,
